@@ -2,40 +2,102 @@
   "name": "Mathilde Fleurs - Gestion Fleuriste",
   "short_name": "Mathilde Fleurs",
   "description": "Application mobile de gestion pour fleuriste - Clients, Événements, Fleuristes",
-  "start_url": "/mathilde-fleurs-app/",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#10B981",
   "background_color": "#ffffff",
   "orientation": "portrait-primary",
-  "scope": "/mathilde-fleurs-app/",
+  "scope": "/",
   "categories": ["business", "productivity"],
   "lang": "fr",
   "icons": [
     {
-      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIGZpbGw9IiMxMEI5ODEiIHJ4PSI2NCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjIwMCIgcj0iNDAiIGZpbGw9IiNGQkJGMjQiLz48ZWxsaXBzZSBjeD0iMjU2IiBjeT0iMTQwIiByeD0iMjAiIHJ5PSIzNSIgZmlsbD0iI0Y0NzJCNiIvPjxlbGxpcHNlIGN4PSIzMTYiIGN5PSIyMDAiIHJ4PSIzNSIgcnk9IjIwIiBmaWxsPSIjRjQ3MkI2Ii8+PGVsbGlwc2UgY3g9IjI1NiIgY3k9IjI2MCIgcng9IjIwIiByeT0iMzUiIGZpbGw9IiNGNDcyQjYiLz48ZWxsaXBzZSBjeD0iMTk2IiBjeT0iMjAwIiByeD0iMzUiIHJ5PSIyMCIgZmlsbD0iI0Y0NzJCNiIvPjxyZWN0IHg9IjI0NiIgeT0iMjgwIiB3aWR0aD0iMjAiIGhlaWdodD0iMTAwIiBmaWxsPSIjMDU5NjY5IiByeD0iMTAiLz48dGV4dCB4PSIyNTYiIHk9IjQ1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiPk1hdGhpbGRlPC90ZXh0Pjx0ZXh0IHg9IjI1NiIgeT0iNDg1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IndoaXRlIj5GbGV1cnM8L3RleHQ+PC9zdmc+",
-      "sizes": "512x512",
-      "type": "image/svg+xml",
+      "src": "/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-96x96.png",
+      "sizes": "96x96",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-128x128.png",
+      "sizes": "128x128",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-144x144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-152x152.png",
+      "sizes": "152x152",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
       "purpose": "any maskable"
     },
     {
-      "src": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHJlY3Qgd2lkdGg9IjUxMiIgaGVpZ2h0PSI1MTIiIGZpbGw9IiMxMEI5ODEiIHJ4PSI2NCIvPjxjaXJjbGUgY3g9IjI1NiIgY3k9IjIwMCIgcj0iNDAiIGZpbGw9IiNGQkJGMjQiLz48ZWxsaXBzZSBjeD0iMjU2IiBjeT0iMTQwIiByeD0iMjAiIHJ5PSIzNSIgZmlsbD0iI0Y0NzJCNiIvPjxlbGxpcHNlIGN4PSIzMTYiIGN5PSIyMDAiIHJ4PSIzNSIgcnk9IjIwIiBmaWxsPSIjRjQ3MkI2Ii8+PGVsbGlwc2UgY3g9IjI1NiIgY3k9IjI2MCIgcng9IjIwIiByeT0iMzUiIGZpbGw9IiNGNDcyQjYiLz48ZWxsaXBzZSBjeD0iMTk2IiBjeT0iMjAwIiByeD0iMzUiIHJ5PSIyMCIgZmlsbD0iI0Y0NzJCNiIvPjxyZWN0IHg9IjI0NiIgeT0iMjgwIiB3aWR0aD0iMjAiIGhlaWdodD0iMTAwIiBmaWxsPSIjMDU5NjY5IiByeD0iMTAiLz48dGV4dCB4PSIyNTYiIHk9IjQ1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjM2IiBmb250LXdlaWdodD0iYm9sZCIgZmlsbD0id2hpdGUiPk1hdGhpbGRlPC90ZXh0Pjx0ZXh0IHg9IjI1NiIgeT0iNDg1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMjQiIGZpbGw9IndoaXRlIj5GbGV1cnM8L3RleHQ+PC9zdmc+",
-      "sizes": "192x192",
-      "type": "image/svg+xml",
+      "src": "/icon-384x384.png",
+      "sizes": "384x384",
+      "type": "image/png",
       "purpose": "any"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot-mobile.png",
+      "sizes": "375x812",
+      "type": "image/png",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "/screenshot-desktop.png", 
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide"
     }
   ],
   "shortcuts": [
     {
       "name": "Nouvel Événement",
-      "short_name": "Événement", 
+      "short_name": "Événement",
       "description": "Créer un nouvel événement",
-      "url": "/mathilde-fleurs-app/events?action=new"
+      "url": "/events?action=new",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
     },
     {
       "name": "Nouveau Client",
       "short_name": "Client",
-      "description": "Ajouter un nouveau client", 
-      "url": "/mathilde-fleurs-app/clients?action=new"
+      "description": "Ajouter un nouveau client",
+      "url": "/clients?action=new",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
     }
   ]
 }
