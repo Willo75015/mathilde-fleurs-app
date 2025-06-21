@@ -1,0 +1,35 @@
+<!-- Icône SVG simple pour Mathilde Fleurs -->
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fond vert -->
+  <rect width="512" height="512" fill="#10B981" rx="64"/>
+  
+  <!-- Fleur centrale -->
+  <circle cx="256" cy="200" r="40" fill="#FBBF24"/>
+  
+  <!-- Pétales -->
+  <ellipse cx="256" cy="140" rx="20" ry="35" fill="#F472B6"/>
+  <ellipse cx="316" cy="200" rx="35" ry="20" fill="#F472B6"/>
+  <ellipse cx="256" cy="260" rx="20" ry="35" fill="#F472B6"/>
+  <ellipse cx="196" cy="200" rx="35" ry="20" fill="#F472B6"/>
+  
+  <!-- Diagonales -->
+  <ellipse cx="300" cy="156" rx="25" ry="15" fill="#F472B6" transform="rotate(45 300 156)"/>
+  <ellipse cx="300" cy="244" rx="25" ry="15" fill="#F472B6" transform="rotate(-45 300 244)"/>
+  <ellipse cx="212" cy="244" rx="25" ry="15" fill="#F472B6" transform="rotate(45 212 244)"/>
+  <ellipse cx="212" cy="156" rx="25" ry="15" fill="#F472B6" transform="rotate(-45 212 156)"/>
+  
+  <!-- Tige -->
+  <rect x="246" y="280" width="20" height="100" fill="#059669" rx="10"/>
+  
+  <!-- Feuilles -->
+  <ellipse cx="230" cy="320" rx="15" ry="25" fill="#059669" transform="rotate(-30 230 320)"/>
+  <ellipse cx="282" cy="340" rx="15" ry="25" fill="#059669" transform="rotate(30 282 340)"/>
+  
+  <!-- Texte -->
+  <text x="256" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white">
+    Mathilde
+  </text>
+  <text x="256" y="485" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">
+    Fleurs
+  </text>
+</svg>
